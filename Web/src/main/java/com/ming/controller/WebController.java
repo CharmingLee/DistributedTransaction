@@ -14,7 +14,6 @@ public class WebController {
     @Reference
     private GoodService goodService;
 
-
     @GetMapping("/")
     public String index(){
         return "hello";
